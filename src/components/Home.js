@@ -14,7 +14,7 @@ class Home extends Component {
                     <p>The official site of Shaannessy</p>
                 </Jumbotron>
                 <Link to='/about'>
-                <Button bsStyle="primary">About</Button>
+                <Button varient="primary">About</Button>
                 </Link>
             </Container>
              

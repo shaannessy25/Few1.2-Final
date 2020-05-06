@@ -1,0 +1,15 @@
+.Navbar{
+    padding: 4em;
+
+}
+
+
+.btn-flat {
+    background-color: purple;
+    color: rgb(255, 255, 255);
+}
+
+.btn-xxl {
+    padding: 1rem;
+    font-size: 2rem;
+}

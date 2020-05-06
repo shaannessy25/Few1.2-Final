@@ -14,7 +14,7 @@ class About extends Component {
                     <p>The official site of Shaannessy</p>
                 </Jumbotron>
                 <Link to='/'>
-                <Button bsStyle="primary">Home</Button>
+                <Button variant="secondary">Home</Button>
                 </Link>
             </Container>
         )
