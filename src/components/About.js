@@ -8,15 +8,18 @@ import './About.css';
 class About extends Component {
     render() {
         return (
-            <Container>
-                <Jumbotron>
-                    <h2>About Me</h2>
-                    <p>The official site of Shaannessy</p>
-                </Jumbotron>
-                <Link to='/'>
-                <Button variant="secondary">Home</Button>
-                </Link>
-            </Container>
+            <div>
+                <Image src='images/alone.jpg' className="header-image" />
+                <Container>
+                    <Jumbotron>
+                        <h2>About Me</h2>
+                        <p>The official site of Shaannessy</p>
+                        <Link to='/'>
+                            <Button variant="primary">Home</Button>
+                        </Link>
+                    </Jumbotron>
+                </Container>
+            </div>
         )
     }
 

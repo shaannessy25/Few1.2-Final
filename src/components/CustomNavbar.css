@@ -1,8 +1,7 @@
 .Navbar{
-    padding: 4em;
+    padding: 1em;
 
 }
-
 
 .btn-flat {
     background-color: purple;
@@ -13,3 +12,5 @@
     padding: 1rem;
     font-size: 2rem;
 }
+
+
