@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Navbar, Container, Row, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Navbar, Container, Button } from 'react-bootstrap';
+// import { Link } from 'react-router-dom';
 import './CustomNavbar.css';
 
 class CustomNavbar extends Component {
