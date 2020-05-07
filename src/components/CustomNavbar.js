@@ -9,10 +9,10 @@ class CustomNavbar extends Component {
             <div>
                 <Navbar className="Navbar" bg="dark" variant="dark">
                 <Container fluid='md'>
-                    <Navbar.Brand href="/">Shaannessy</Navbar.Brand>
+                    <Navbar.Brand className="brand" href="/">Shaannessy</Navbar.Brand>
                     <Button variant="outline-danger" size="xxl" href="/">Merchandise</Button>
                     <Button variant="outline-danger" size="xxl" href="/new">Music</Button>
-                    <Button variant="outline-danger" size="xxl" href="/about">Tour Dates</Button>
+                    <Button variant="outline-danger" size="xxl" href="/tour">Tour Dates</Button>
                     <Button variant="outline-danger" size="xxl" href="/about">About Me</Button>
                 </Container>
                 </Navbar>

@@ -9,8 +9,9 @@ class About extends Component {
     render() {
         return (
             <div>
-                <Image src='images/alone.jpg' className="header-image" />
+                <Image src='images/about.jpg' className="header-image" fluid />
                 <Container>
+                    
                     <Jumbotron>
                         <h2>About Me</h2>
                         <p>The official site of Shaannessy</p>

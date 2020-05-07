@@ -3,6 +3,10 @@
 
 }
 
+.brand{
+    font-size: 2em;
+}
+
 .btn-flat {
     background-color: purple;
     color: rgb(255, 255, 255);

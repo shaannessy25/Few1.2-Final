@@ -1,39 +1,29 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Jumbotron, Container, Row, Col, Image, Button, Carousel } from 'react-bootstrap';
+import { Container, Row, Col, Carousel, Badge } from 'react-bootstrap';
 import './New.css';
-
+import Album from './Album.js'
 
 
 class New extends Component {
     render() {
         return (
             <div>
-                <Container>
+                <Container className="container-carousel">
                     <Carousel>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
                             src="images/whattheyneed.jpg"
                             alt="First slide"
-                            fluid
                             />
-                            <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
                             src="/images/King.jpg"
-                            alt="Third slide"
+                            alt="Second slide"
                             />
-
-                            <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
@@ -41,53 +31,61 @@ class New extends Component {
                             src="/images/HEARTEATER.jpg"
                             alt="Third slide"
                             />
-                            <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
                             src="/images/thebay.jpg"
-                            alt="Third slide"
+                            alt="=Fourth slide"
                             />
-                            <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
                             src="/images/whattheywant.jpg"
-                            alt="Third slide"
+                            alt="Fifth slide"
                             />
-                            <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                            </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
-                </Container>  
-            {/* <Container>
-                <Row>
-                    <Col>
-                        <Image src="/images/thebay.jpg" fluid/>
-                    </Col>
-                    <Col>
-                        <Image src="/images/King.jpg" fluid />
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <Image src="/images/HEARTEATER.jpg" fluid />
-                    </Col>
-                    <Col>
-                        <Image src="/images/whattheyneed.jpg" fluid />
-                    </Col>
-                </Row>
-          </Container> */}
+                </Container> 
+                <Container>
+                    <h1>Albums</h1>
+                    <Row>
+                        <Col>
+                            <Album
+                                title="HEARTEATER" 
+                                image="images/HEARTEATER.jpg"
+                                text="this project explores the root of heartbreak"
+                            />
+                        </Col>
+                        <Col>
+                            <Album
+                                title="What They Need" 
+                                image="images/whattheyneed.jpg"
+                                text="this project explores the root of heartbreak"
+                            />
+                        </Col>
+                    </Row>
+                    <br></br>
+                    <h1>Singles</h1>
+                    <Row>
+                        <Col>
+                            <Album
+                                title="What They Need" 
+                                image="images/king.jpg"
+                                text="this project explores the root of heartbreak"
+                            />
+                        </Col>
+                        <Col>
+                            <Album
+                                title="What They Need" 
+                                image="images/thebay.jpg"
+                                text="this project explores the root of heartbreak"
+                            />
+                        </Col>
+                    </Row>
+                </Container>
+              
           </div>
         )
     }
