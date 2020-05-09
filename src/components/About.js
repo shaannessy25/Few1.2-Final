@@ -9,7 +9,7 @@ class About extends Component {
     render() {
         return (
             <div>
-                <Image src='images/about.jpg' className="header-image" fluid />
+                <Image src={`${process.env.PUBLIC_URL}/images/about.jpg`} className="header-image" fluid />
                 <Container>
                     
                     <Jumbotron>

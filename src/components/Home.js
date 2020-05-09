@@ -10,9 +10,9 @@ class Home extends Component {
         return (
             <div>
                 <Container>
-                    <Row classname="show-grid text-center">
-                    <Col sm={8} classname="person-wrapper">
-                            <Image src='images/shaan.jpg' />
+                    <Row className="show-grid text-center">
+                    <Col sm={8} className="person-wrapper">
+                            <Image src={`${process.env.PUBLIC_URL}/images/shaan.jpg`} fluid/>
                         </Col> 
                     </Row>
                     <Jumbotron>

@@ -14,35 +14,35 @@ class New extends Component {
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src="images/whattheyneed.jpg"
+                            src={`${process.env.PUBLIC_URL}/images/whattheyneed.jpg`}
                             alt="First slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src="/images/King.jpg"
+                            src={`${process.env.PUBLIC_URL}/images/King.jpg`}
                             alt="Second slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src="/images/HEARTEATER.jpg"
+                            src={`${process.env.PUBLIC_URL}/images/HEARTEATER.jpg`}
                             alt="Third slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src="/images/thebay.jpg"
+                            src={`${process.env.PUBLIC_URL}/images/thebay.jpg`}
                             alt="=Fourth slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src="/images/whattheywant.jpg"
+                            src={`${process.env.PUBLIC_URL}/images/whattheywant.jpg`}
                             alt="Fifth slide"
                             />
                         </Carousel.Item>
@@ -54,15 +54,21 @@ class New extends Component {
                         <Col>
                             <Album
                                 title="HEARTEATER" 
-                                image="images/HEARTEATER.jpg"
-                                text="this project explores the root of heartbreak"
+                                image={`${process.env.PUBLIC_URL}/images/HEARTEATER.jpg`}
+                                text="Explores the root of heartbreak"
+                                artist="Knowbody Knows x Shaannessy"
+                                apple="https://music.apple.com/us/album/hearteater/1511329558"
+                                spotify="https://open.spotify.com/album/0Ki9gyE6iv3oE3Ex68iqmW"
                             />
                         </Col>
                         <Col>
                             <Album
                                 title="What They Need" 
-                                image="images/whattheyneed.jpg"
-                                text="this project explores the root of heartbreak"
+                                image={`${process.env.PUBLIC_URL}/images/whattheyneed.jpg`}
+                                text="Explores the root of heartbreak"
+                                artist="Shaannessy"
+                                date="June 6, 2019"
+                                apple="https://music.apple.com/us/album/what-they-need/1467305967"
                             />
                         </Col>
                     </Row>
@@ -71,16 +77,22 @@ class New extends Component {
                     <Row>
                         <Col>
                             <Album
-                                title="What They Need" 
-                                image="images/king.jpg"
+                                title="King" 
+                                image={`${process.env.PUBLIC_URL}/images/king.jpg`}
                                 text="this project explores the root of heartbreak"
+                                artist="Shaannessy"
+                                date="June 6, 2019"
+                                apple="https://music.apple.com/us/album/king/1490350458?i=1490350459"
                             />
                         </Col>
                         <Col>
                             <Album
-                                title="What They Need" 
-                                image="images/thebay.jpg"
+                                title="They Bay" 
+                                image={`${process.env.PUBLIC_URL}/images/thebay.jpg`}
                                 text="this project explores the root of heartbreak"
+                                artist="Shaannessy"
+                                date="June 6, 2019"
+                                apple="https://music.apple.com/us/album/the-bay-single/1470037353"
                             />
                         </Col>
                     </Row>

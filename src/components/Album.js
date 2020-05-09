@@ -6,7 +6,7 @@ import { Jumbotron, Container, Card,ListGroup, ListGroupItem, Carousel } from 'r
 
 
 function Album (props) {
-    const { title, image, text,  } = props
+    const { title, image, text, artist, date, apple, spotify, youtube } = props
     return (
         <div>
             <Card style={{ width: '18rem' }}>
@@ -18,13 +18,14 @@ function Album (props) {
                 </Card.Text>
                 </Card.Body>
                     <ListGroup className="list-group-flush">
-                    <ListGroupItem>Cras justo odio</ListGroupItem>
+                    <ListGroupItem>Artist: {artist}</ListGroupItem>
                     <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                    <ListGroupItem>Vestibulum at eros</ListGroupItem>
+                    <ListGroupItem>Released: {date}</ListGroupItem>
                     </ListGroup>
                     <Card.Body>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Another Link</Card.Link>
+                    <Card.Link href={apple}>Apple Music</Card.Link>
+                    <Card.Link href={spotify}>Spotify</Card.Link>
+                    <Card.Link href={youtube}>Youtube</Card.Link>
                 </Card.Body>
             </Card>
         </div>
