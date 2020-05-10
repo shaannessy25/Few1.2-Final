@@ -1,0 +1,23 @@
+.image img {
+    opacity: 0.5;
+  }
+  
+.image img:hover {
+    opacity: 1.0;
+  }
+
+
+.center-img {
+    display: block;
+    margin:auto;
+    max-width: 100%;
+    padding: 1em;
+}
+
+.carousel-merch {
+    padding: 1em;
+}
+
+.merch-container{
+    padding: 1em;   
+}

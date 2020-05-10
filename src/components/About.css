@@ -1,5 +1,11 @@
-.header-image{
-    
-
-
-}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color:#A63446;
+    border: 1px solid #FBFEF9;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'
+  }
+  

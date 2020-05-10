@@ -3,17 +3,7 @@
     width: 100%; /* for IE 6 */
  }
  
- h1 { 
-   display: block;
-   
-   /* bottom: 20px;
-   right: 20px; */
-   background-color: black;
-   color: white;
-   padding-left: 20px;
-   padding-right: 20px;
-   margin: 0px auto 0px auto;
- }
+
 
  .Top-left {
   position: absolute;
@@ -21,9 +11,55 @@
   left: 16px;
  }
 
- .centered {
+ .centered-left {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  
+}
+
+.centered-right {
+  position: absolute;
+  top: 20%;
+  left: 58%;
+  
+}
+.bottom-left {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 30%;
+  
+}
+
+.bottom-right {
+  position: absolute;
+  top: 50%;
+  left: 58%;
+  
+}
+
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+  
+}
+
+ul li {
+  border: 1px solid #FBFEF9;
+  border-radius: 25px;
+  border-style: outset; /* Add a thin border to each list item */
+  margin-top: 20px; /* Prevent double borders */
+  background-color: #A63446; /* Add a grey background color */
+  padding: 12px; /* Add some padding */
+  color: #FBFEF9;
+  font-family: monospace;
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+ li:hover {
+  color:black;
+  border: 1px solid black;
 }

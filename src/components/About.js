@@ -12,12 +12,9 @@ class About extends Component {
                 <Image src={`${process.env.PUBLIC_URL}/images/about.jpg`} className="header-image" fluid />
                 <Container>
                     
-                    <Jumbotron>
+                    <Jumbotron className='centered'>
                         <h2>About Me</h2>
                         <p>The official site of Shaannessy</p>
-                        <Link to='/'>
-                            <Button variant="primary">Home</Button>
-                        </Link>
                     </Jumbotron>
                 </Container>
             </div>

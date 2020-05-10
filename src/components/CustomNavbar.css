@@ -18,3 +18,13 @@
 }
 
 
+.navlink {
+    color: red;
+    border: 1px solid #FBFEF9;
+    border-radius: 25px;
+}
+
+.navlink:hover {
+    color:white;
+    background-color:#A63446;
+}

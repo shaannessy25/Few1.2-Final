@@ -1,3 +1,15 @@
 .container-carousel {
     padding: 50px 0px;
 }
+
+h1 { 
+    text-align: center;   
+    border-radius: 20px solid;
+    background-color: #A63446;
+    color: white;
+    
+   }
+
+h1:hover {
+    opacity: 1.0;
+}
