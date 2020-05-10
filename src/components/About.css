@@ -1,11 +1,22 @@
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background-color:#A63446;
-    border: 1px solid #FBFEF9;
+    position: fixed;
+    top: 20%;
+    /* right: 20%; */
+    left: 35%;
+    margin:0;
+    padding:0;
+    max-width: 30%;
+    color:#A69CAC;
+    background-color:transparent;
+    border: 3px solid #FBFEF9;
     border-radius: 25px;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'
   }
   
+
+  .centered:hover{
+    background-color:#474973;
+    border-color: #F1DAC4;
+    color: #F1DAC4;
+  }

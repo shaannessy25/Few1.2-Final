@@ -13,7 +13,7 @@ class CustomNavbar extends Component {
                     <NavLink className="navlink" href="/merch">Merchandise</NavLink>
                     <NavLink className="navlink" href="/new">Music</NavLink>
                     <NavLink className="navlink" href="/tour">Tour Dates</NavLink>
-                    <NavLink className="navlink" href="/about">About Me</NavLink>
+                    <NavLink className="navlink" href="/about">About</NavLink>
                 </Container>
                 </Navbar>
             </div>

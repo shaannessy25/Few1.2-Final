@@ -60,10 +60,15 @@ class Merch extends Component {
                         <Col sm><Image src={`${process.env.PUBLIC_URL}/images/merch2.jpg`} fluid /></Col>
                         <Col sm><Image src="https://wallpaperplay.com/walls/full/8/a/9/73451.jpg"fluid /></Col>
                     </Row>
-                    <Row>
+                    <Row className="merch-container">
                         <Col sm><Image src="https://wallpaperplay.com/walls/full/6/c/5/73460.jpg" fluid /></Col>
                         <Col sm><Image src={`${process.env.PUBLIC_URL}/images/merch3.png`} fluid /></Col>
                         <Col sm><Image src="https://dslv9ilpbe7p1.cloudfront.net/CULzEuf91osnsZmp5ijtnw_store_banner_image.jpeg" fluid /></Col>
+                    </Row>
+                    <Row className="merch-container">
+                        <Col sm><Image src="https://cdn.lookastic.com/looks/hoodie-crew-neck-t-shirt-sweatpants-large-31825.jpg" fluid /></Col>
+                        <Col sm><Image src="https://www.machovibes.com/wp-content/uploads/2018/04/Different-Ways-to-Style-a-Navy-Suit-17.jpg" fluid /></Col>
+                        <Col sm><Image src="https://i.pinimg.com/originals/5f/bf/b8/5fbfb87939e20e3222fa49f40a2fcd21.jpg" fluid /></Col>
                     </Row>
                 </Container>
             </div>
