@@ -14,14 +14,14 @@ class New extends Component {
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src={`${process.env.PUBLIC_URL}/images/whattheyneed.jpg`}
+                            src={`${process.env.PUBLIC_URL}/images/King.jpg`}
                             alt="First slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src={`${process.env.PUBLIC_URL}/images/King.jpg`}
+                            src={`${process.env.PUBLIC_URL}/images/whattheyneed.jpg`}
                             alt="Second slide"
                             />
                         </Carousel.Item>
@@ -57,8 +57,10 @@ class New extends Component {
                                 image={`${process.env.PUBLIC_URL}/images/HEARTEATER.jpg`}
                                 text="Explores the root of heartbreak"
                                 artist="Knowbody Knows x Shaannessy"
+                                date="May 1, 2020"
                                 apple="https://music.apple.com/us/album/hearteater/1511329558"
                                 spotify="https://open.spotify.com/album/0Ki9gyE6iv3oE3Ex68iqmW"
+                                youtube="https://www.youtube.com/watch?v=xZkf6UFqqP4"
                             />
                         </Col>
                         <Col>

@@ -19,7 +19,6 @@ function Album (props) {
                 </Card.Body>
                     <ListGroup className="list-group-flush">
                     <ListGroupItem>Artist: {artist}</ListGroupItem>
-                    <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
                     <ListGroupItem>Released: {date}</ListGroupItem>
                     </ListGroup>
                     <Card.Body>
